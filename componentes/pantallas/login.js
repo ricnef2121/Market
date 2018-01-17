@@ -9,7 +9,7 @@ import{
 class Login extends Component{
     render(){
         return(
-            <View>
+            <View style={styles.container}>
                 <Text>
                 Login
                 </Text>
@@ -18,5 +18,22 @@ class Login extends Component{
     }
 }
 
-
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#F5FCFF',
+    },
+  btn: {
+      fontSize: 20,
+      textAlign: 'center',
+      justifyContent: 'center',
+      
+    },
+    bod:{
+      alignItems: 'center',
+    }
+  });
+  
 export default Login;
