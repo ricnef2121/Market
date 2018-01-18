@@ -1,4 +1,8 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
+//import Login from './componentes/pantallas/login';
+//AppRegistry.registerComponent('Market', () => Login);
 
-AppRegistry.registerComponent('Market', () => App);
+import App from './App';
+AppRegistry.registerComponent('Market', ()=> App);
+
+//import agregar from './componentes/pantallas/agregarTienda';
